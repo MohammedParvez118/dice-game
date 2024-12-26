@@ -43,9 +43,9 @@ document.getElementById("playButton").addEventListener("click", function () {
   
       // Determine and display the winner
       if (randomNumber1 > randomNumber2) {
-        document.querySelector("h1").innerHTML = "Player 1 Wins! 🎉";
+        document.querySelector("h1").innerHTML = player1Name+ " Wins! 🎉";
       } else if (randomNumber1 < randomNumber2) {
-        document.querySelector("h1").innerHTML = "Player 2 Wins! 🎉";
+        document.querySelector("h1").innerHTML = player2Name + " Wins! 🎉";
       } else {
         document.querySelector("h1").innerHTML = "It's a Draw! 🤝";
       }
