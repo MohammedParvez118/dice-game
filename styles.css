@@ -1,0 +1,26 @@
+/* Dice Rolling Animation */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.roll {
+  animation: rollAnimation 1s ease-in-out;
+}
+
+@keyframes rollAnimation {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+}
+body img {
+  border: none; /* Removes border from all images inside the body */
+}
+h1 {
+  font-family: 'Press Start 2P', cursive;
+}
